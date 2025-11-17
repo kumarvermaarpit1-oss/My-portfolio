@@ -222,7 +222,51 @@ h1 {
     transition: transform 0.3s ease;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 17px;
+    padding-bottom: 20px;
+    margin-left:-38px;
+}
 
+.contact p{
+    background-color: #241f29;
+    height: 30px;
+
+    border-radius: 10px;
+    transition: transform .25s ease;
+  box-shadow: .25s ease;
+  will-change: transform;
+    
+}
+
+.contact p:hover {
+    transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .35);
+}
+
+.contact .Whatapps{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .mail{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact span{
+    color: #c60a30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px ;
+}
 
 
 
@@ -263,3 +307,7 @@ footer {
         max-width: 100%;
     }
 }
+
+
+
+
